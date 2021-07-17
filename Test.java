@@ -10,7 +10,15 @@ public class Test {
         System.out.println("Hello World!"+2);
         
         max();        
-        System.out.printf("average of number 1,2,3 is: %.2f",Average.calculateAverage(1, 2, 3));
+        System.out.printf("average of number 1,2,3 is: %.2f\n",Average.calculateAverage(1, 2, 3));
+
+        TestClass tc = new TestClass();
+        System.out.println(tc.getAsd());
+        tc.setAsd();
+        System.out.println(tc.getAsd());
+        
+        TestClass tcl = new TestClass("LOL");
+        System.out.println(tcl.getAsd());        
     }
 
     public static void max(){
