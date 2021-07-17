@@ -1,6 +1,5 @@
 package Practical3;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Q3 {

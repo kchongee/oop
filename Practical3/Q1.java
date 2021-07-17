@@ -1,8 +1,6 @@
 package Practical3;
 
-import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.Scanner;
 
 public class Q1 {
